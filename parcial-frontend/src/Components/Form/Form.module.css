@@ -1,0 +1,26 @@
+.formContainer {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #d7ccc8; 
+  border: 1px solid #a1887f; 
+}
+
+.label {
+  font-size: 20px;
+  color: #6d4c41; 
+}
+
+.input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #a1887f; 
+}
+
+.button {
+  background-color: #8d6e63; 
+  color: white;
+  padding: 20px;
+  border-radius: 4px;
+}
