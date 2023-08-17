@@ -21,7 +21,7 @@ const Form = ({mascota, setMascota, setShow, setError}) => {
         onChange={(e) => setMascota({...mascota, nombre: e.target.value})}
       />
       <label className={styles.label}>Especie:</label>
-      <input className={styles.input} type="text" value={mascota.Especie} 
+      <input className={styles.input} type="text" value={mascota.especie} 
         onChange={(e) => setMascota({...mascota, especie: e.target.value})}
       />
       <button className={styles.button}>Enviar</button>
